@@ -10,7 +10,7 @@
   display: flex;
   flex-flow: column nowrap;
   height: 100vh;
-  padding: var(--spacing-l);
+  //padding: var(--spacing-l);
   width: 100vw;
 
   &__cover,
@@ -54,18 +54,18 @@
     justify-content: center;
   }
 
-  @media only screen and (min-width: 767px) {
-    flex-flow: row nowrap;
-    padding: 10%;
+  // @media only screen and (min-width: 767px) {
+  //   flex-flow: row nowrap;
+  //   padding: 10%;
 
-    &__cover,
-    &__details {
-      width: 50%;
-      max-width: 495px;
-    }
+  //   &__cover,
+  //   &__details {
+  //     width: 50%;
+  //     max-width: 495px;
+  //   }
 
-    &__details {
-      text-align: left;
-    }
-  }
+  //   &__details {
+  //     text-align: left;
+  //   }
+  // }
 }
